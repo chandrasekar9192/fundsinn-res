@@ -203,15 +203,15 @@ h1,h2,h3,h4,span,label,p,li{
         top: 100px;
         left: 93px;
     }
-.assets-image h3{
-    position: absolute;
-    color: white;
-    font-family: Poppins;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 19px;
-    bottom: 78px;
-    left: 171px;
+.assets-image h3 {
+        position: absolute;
+        color: white;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 19px;
+        bottom: 83px;
+        left: 168px;
     }
 .assets-image h5{
     position: absolute;
@@ -503,7 +503,7 @@ tr:hover {
           background-color:#f5f5f5;
         }
 table{
-    width:100%;
+    width:97%;
 }
 .table-design{
     border-collapse: collapse;
@@ -594,12 +594,26 @@ table{
 .asset-chart {
     height: auto;
 }
+.assets-image{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
 .assets-image h3 {
     top: 162px;
-    left: 176px;
+    left: 215px;
+}
+.assets-image h4 {
+        top: 102px;
+        left: 131px;
+}
+.assets-image h5{
+    top: 139px;
+    left: 86px;
 }
 .asset-per {
-    margin-left: 20px;
+    margin-left: 61px;
+    margin-top: 2px;
 }
 .saving {
     font-size: 11px;
@@ -607,7 +621,29 @@ table{
 .list {
     padding: 1px 0px;
 }
-.hide{
+ /* .hide{
     display: none;
+}  */
+.table-heading {
+    font-size: 12px;
+}
+.table-body {
+    font-size: 12px;
+}
+.table-body, td {
+    padding: 2px;
+}
+.payment-failed {
+    font-size: 12px;
+    line-height: 16px;
+}
+.navbar-design {
+    height: 80px;
+}
+.fandsin-icon {
+    padding-left: 0px;
+}
+.list ul li label img {
+    margin-left: 15px;
 }
 }
